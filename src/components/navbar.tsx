@@ -14,7 +14,7 @@ function Navbar() {
 
         <div>
             <div className="controls">
-                <Link to='/' onClick={changeStyle}>
+                <Link to='/portfolio' onClick={changeStyle}>
                     <div className="control" data-id="home"  >
                         <FontAwesomeIcon icon={faHouse} />
                     </div>
